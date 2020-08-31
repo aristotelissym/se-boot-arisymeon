@@ -4,8 +4,9 @@ public class Structures {
     List list = new List();
     Duplicate duplicate = new Duplicate();
     Descending descending = new Descending();
-    StackReverse stack = new StackReverse();
+    StackReverse stackReverse = new StackReverse();
     Symmetric symmetric = new Symmetric();
+    Stack stack = new Stack();
 
     public void Structures () {
         //Ex201
@@ -18,9 +19,12 @@ public class Structures {
         descending.descDigit();
 
         //Ex204
-        stack.stackString();
+        stack.stackSimulation();
 
         //Ex205
+        stackReverse.stackString();
+
+        //Ex206
         symmetric.findSymmetric();
     }
 }

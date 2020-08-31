@@ -12,12 +12,12 @@ public class Prime {
 
             if (isItPrime == 0 || isItPrime == 1) {
                 flag = false;
-                System.out.println(flag);
+                //System.out.println(flag);
             } else if (isItPrime % 2 == 0) {
                 flag = false;
-                System.out.println(flag);
+                //System.out.println(flag);
             } else if (isItPrime % 2 != 0) {
-                System.out.println(flag);
+                //System.out.println(flag);
             }
 
             return flag;

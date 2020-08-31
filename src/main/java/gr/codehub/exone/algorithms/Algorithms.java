@@ -26,7 +26,7 @@ public class Algorithms {
         Scanner primes = new Scanner(System.in);
         System.out.println("Check if a number is prime: ");
         int isItPrime = primes.nextInt();
-        prime.checkPrime(isItPrime);
+        System.out.println(prime.checkPrime(isItPrime));
 
         //Ex104
         Scanner divided = new Scanner(System.in);
