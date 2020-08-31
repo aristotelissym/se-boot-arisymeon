@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Algorithms {
 
     Factorial factorial = new Factorial();
+    Maximum maximum = new Maximum();
     Prime prime = new Prime();
     Division division = new Division();
     LongCount longCount = new LongCount();
@@ -17,7 +18,9 @@ public class Algorithms {
         factorial.getFactorial(factorials);
 
         //Ex102
-
+        Scanner max_num = new Scanner(System.in);
+        System.out.println("Enter an integer number: ");
+        System.out.println(maximum.getMaximum(max_num));
 
         //Ex103
         Scanner primes = new Scanner(System.in);
